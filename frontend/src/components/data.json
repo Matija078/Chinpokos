@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Charmander",
+    "type": "Fire",
+    "description": "A small, lizard-like Pokémon, it has a flame at the end of its tail that glows when it's happy. When it's angry, the flame burns more intensely.",
+    "imageUrl": "/images/charmander.jpg"
+  },
+  {
+    "name": "Squirtle",
+    "type": "Water",
+    "description": "A small, blue, turtle-like Pokémon. It has a large, hard shell on its back that it uses for defense and protection.",
+    "imageUrl": "/images/squirtle.jpg"
+  },
+  {
+    "name": "Bulbasaur",
+    "type": "Grass/Poison",
+    "description": "A small, green, reptilian creature with a large plant bulb on its back. It absorbs sunlight and uses it for energy.",
+    "imageUrl": "/images/bulbasaur.jpg"
+  },
+  {
+    "name": "Pikachu",
+    "type": "Electric",
+    "description": "A small, yellow, mouse-like creature with electrical powers. It can store electricity in its cheeks and release it in a powerful shock.",
+    "imageUrl": "/images/pikachu.jpg"
+  },
+  {
+    "name": "Jigglypuff",
+    "type": "Normal/Fairy",
+    "description": "A small, round, pink, fairy-like creature. It has the power to sing a lullaby that puts anyone who hears it to sleep.",
+    "imageUrl": "/images/jigglypuff.jpg"
+  },
+  {
+    "name": "Gengar",
+    "type": "Ghost/Poison",
+    "description": "A dark, shadowy Pokémon that can pass through walls and other solid objects. It can also cause nightmares in people who sleep near it.",
+    "imageUrl": "/images/gengar.jpg"
+  },
+  {
+    "name": "Mewtwo",
+    "type": "Psychic",
+    "description": "A powerful, genetically-engineered Pokémon with psychic powers. It was created in a laboratory and is said to be one of the strongest Pokémon in existence.",
+    "imageUrl": "/images/mewtwo.jpg"
+  },
+  {
+    "name": "Dragonite",
+    "type": "Dragon/Flying",
+    "description": "A large, dragon-like Pokémon that can fly. It has powerful wings and can create strong gusts of wind with them.",
+    "imageUrl": "/images/dragonite.jpg"
+  },
+  {
+    "name": "Eevee",
+    "type": "Normal",
+    "description": "A small, furry creature with the ability to evolve into different forms depending on the environment and conditions it is exposed to.",
+    "imageUrl": "/images/eevee.jpg"
+  },
+  {
+    "name": "Snorlax",
+    "type": "Normal",
+    "description": "A large, sleepy Pokémon that spends most of its time eating and sleeping. It can become very aggressive if it is awakened from its nap.",
+    "imageUrl": "/images/snorlax.jpg"
+  }
+]

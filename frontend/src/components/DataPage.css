@@ -1,0 +1,185 @@
+body {
+  background-color: #029a81;
+}
+/* Styles for the container element */
+.container {
+  border: 10 solid rgb(45, 43, 43);
+  /* Border with 10px width and dark gray color */
+  max-width: 800px;
+  /* Maximum width of 800px */
+  margin: 0 auto;
+  /* Center the container horizontally */
+  padding: 20px;
+  /* 20px padding */
+}
+
+/* Styles for the heading */
+h1 {
+  text-align: center;
+  /* Center align the heading */
+}
+
+/* Styles for error messages */
+.error {
+  color: red;
+  /* Set text color to red */
+  margin-bottom: 10px;
+  /* Add a bottom margin of 10px */
+}
+
+/* Styles for loading state */
+.loading {
+  text-align: center;
+  /* Center align the text */
+}
+
+/* Styles for the chinpokomon container */
+.chinpokomon-container {
+  display: grid;
+  /* Use CSS Grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* Automatically fit columns with a minimum of 200px */
+  /*and maximum of 1 fraction unit */
+  grid-gap: 20px;
+  /* Gap of 20px between grid items */
+  margin-top: 10px;
+  /* Top margin of 10px */
+  color: rgb(208, 189, 21);
+  /* Set text color to a yellowish color */
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(16, 14, 1),
+    0 0 5px rgb(16, 14, 1);
+  /* Apply a text shadow effect */
+}
+
+/* Styles for the text */
+.text {
+  color: rgb(208, 189, 21);
+  /* Set text color to a yellowish color */
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(16, 14, 1),
+    0 0 10px rgb(16, 14, 1);
+  /* Apply a text shadow effect */
+}
+
+/* Styles for each chinpokomon item */
+.chinpokomon-item {
+  text-align: center;
+  /* Center align the content */
+  background-color: #f8f8f8;
+  /* Light gray background color */
+  padding: 20px;
+  /* 20px padding */
+  border-radius: 20%;
+  /* Border radius of 10% to create a slightly rounded appearance */
+  transform: rotate(2deg);
+}
+
+/* Styles for the button container */
+.button {
+  background-color: #029a81;
+  /* White background color */
+  color: black;
+  /* Set text color to black */
+}
+
+/* Styles for the chinpokomon name heading */
+.chinpokomon-item h2 {
+  margin-top: 0;
+  /* Set top margin to 0 for the heading */
+}
+
+/* Styles for the chinpokomon description paragraphs */
+.chinpokomon-item p {
+  margin: 10px 0;
+  /* Set top and bottom margin of 10px for paragraphs */
+}
+
+/* Styles for the chinpokomon images */
+.chinpokomon-item img {
+  max-width: 700%;
+  /* Set maximum width of images to 700% */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-top: 10px;
+  /* Top margin of 10px */
+}
+
+/* Styles for the edit form */
+.edit-form {
+  margin-top: 20px;
+  /* Top margin of 20px */
+  display: flex;
+  /* Use flexbox layout */
+  flex-direction: column;
+  /* Arrange items vertically */
+}
+
+/* Styles for the edit form inputs */
+.edit-form input {
+  margin-bottom: 10px;
+  /* Bottom margin of 10px */
+  padding: 5px;
+  /* 5px padding */
+}
+
+/* Styles for the buttons */
+button {
+  margin-left: 10px;
+  /* Left margin of 20px */
+  text-align: center;
+  /* Center align the text */
+  margin-top: 10px;
+  /* Top margin of 10px */
+  border-radius: 40px;
+  /* Border radius of 10px to create rounded corners */
+  border: 1px solid black;
+  /* Add a 1px solid black border */
+  background-color: rgb(208, 189, 21);
+  /* Yellowish background color */
+  color: black;
+  /* Set text color to black */
+  width: 100px;
+  /* Set width to 100px */
+  align-self: flex-start;
+  /* Align the button to the start of the container */
+}
+
+/* Styles for the image */
+.img {
+  margin-top: 0px;
+  /* Top margin of 0px */
+}
+
+/* Styles for the users container */
+.users {
+  text-align: center;
+  /* Center align the text */
+  margin-top: 0;
+  /* Top margin of 0 */
+  margin-left: 300px;
+  /* Left margin of 300px */
+}
+
+/* Styles for the logout button */
+.logout {
+  text-align: center;
+  /* Center align the text */
+  margin-top: 0;
+  /* Top margin of 0 */
+  margin-left: 10px;
+}
+
+/* Styles for general images */
+img {
+  align-items: center;
+  /* Center align the image */
+  margin-left: 10px;
+  /* Left margin of 10px */
+  width: 100%;
+  /* Set width to 100% */
+  max-width: 400px;
+  /* Set maximum width to 400px */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-top: 16px;
+  /* Top margin of 16px */
+}

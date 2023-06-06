@@ -1,0 +1,48 @@
+/* App.css */
+
+/* Sett standardstil for hele applikasjonen */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Stil for headeren */
+.header {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Stil for navigasjonsmenyen */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stil for hvert element i navigasjonsmenyen */
+.nav-menu li {
+  margin-right: 1rem;
+}
+
+/* Stil for lenkene i navigasjonsmenyen */
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Stil for aktiv lenke i navigasjonsmenyen */
+.nav-menu li a.active {
+  color: #000;
+}
+
+/* Stil for innholdet */
+.content {
+  padding: 1rem;
+}

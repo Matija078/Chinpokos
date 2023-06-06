@@ -1,0 +1,84 @@
+/* DataPage.css */
+
+.container {
+  border: 10 solid rgb(45, 43, 43);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.chinpokomon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.chinpokomon-item {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10%;
+}
+.button {
+  background-color: white;
+  color: black;
+}
+
+.chinpokomon-item h2 {
+  margin-top: 0;
+}
+
+.chinpokomon-item p {
+  margin: 10px 0;
+}
+
+.chinpokomon-item img {
+  max-width: 700%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.edit-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(208, 189, 21);
+  color: black;
+  width: 100px;
+  align-self: flex-start;
+}
+img {
+  align-items: center;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 16px;
+}
